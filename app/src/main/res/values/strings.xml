@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ManagerAppQLVT</string>
+    <string name="qlvt">Quản lí vật tư Nông nghiệp</string>
+    <string name="ten_hang">Tên sản phẩm</string>
+    <string name="ten_cty">Tên công ty</string>
+    <string name="so_luong">Số lượng</string>
+    <string name="gia_ban">Giá bán</string>
+    <string name="loai">Loai</string>
+    <string name="gia_nhap">Giá nhập</string>
+    <string name="thongtinkhach">Nhập thông tin khách hàng</string>
+    <string name="nhapsp">Nhập sản phẩm</string>
+
+
+    <string name="otp_description_text">Enter one time password sent on\n+840968 </string>
+    <string name="otp_code_text">co\nde</string>
+    <string name="otp_verification_text">Enter one time password sent on</string>
+    <string name="verify_code">Nhập mã</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:orderInCategory="1"
+            android:title="Danh mục">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home"
+                    android:title="Trang chủ" />
+            </menu>
+        </item>
+
+
+        <item
+            android:orderInCategory="2"
+            android:title="Loại">
+            <menu>
+                <item
+                    android:id="@+id/nav_trusau"
+                    android:icon="@drawable/thuoc"
+                    android:title="Thuốc trừ sâu" />
+                <item
+                    android:id="@+id/nav_truco"
+                    android:icon="@drawable/thuoc"
+                    android:title="Thuốc trừ cỏ" />
+                <item
+                    android:id="@+id/nav_phanbon"
+                    android:icon="@drawable/phanbon"
+                    android:title="Phân bón" />
+                <item
+                    android:id="@+id/nav_dungcu"
+                    android:icon="@drawable/dungcu"
+                    android:title="Dụng cụ" />
+
+            </menu>
+        </item>
+      <item
+          android:orderInCategory="3"
+          android:title="Thông tin">
+          <menu>
+              <item
+                  android:id="@+id/nav_nhapdon"
+                  android:icon="@drawable/donhang"
+                  android:iconTint="@color/teal"
+                  android:title="Nhập vật tư" />
+
+              <item
+                  android:id="@+id/nav_khachhang"
+                  android:icon="@drawable/khachhang"
+                  android:iconTint="@color/teal"
+                  android:title="Khách hàng" />
+              <item
+                  android:id="@+id/nav_donhang"
+                  android:icon="@drawable/donhang"
+                  android:iconTint="@color/teal"
+                  android:title="Đơn hàng" />
+          </menu>
+      </item>
+    </group>
+
+    <item
+        android:orderInCategory="4"
+        android:title="Cài đặt">
+        <menu>
+            <item
+                android:id="@+id/nav_quanli"
+                android:icon="@drawable/user"
+                android:iconTint="@color/teal"
+                android:title="Quản lí" />
+            <item
+                android:id="@+id/nav_dangxuat"
+                android:icon="@drawable/logout"
+                android:iconTint="@color/teal"
+                android:title="Đăng xuất" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
